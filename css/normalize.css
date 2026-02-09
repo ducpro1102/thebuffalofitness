@@ -353,3 +353,8 @@ template {
 [hidden] {
   display: none;
 }
+
+banner-image{
+    width:688px;
+    height:859px;
+}
