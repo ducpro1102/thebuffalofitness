@@ -58,32 +58,34 @@
                 </g>
             </symbol>
 
-            <symbol xmlns="http://www.w3.org/2000/svg" id="boxing" viewBox="0 0 24 24">
+            <symbol xmlns="http://www.w3.org/2000/svg" id="private" viewBox="0 0 24 24">
                 <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
-                    <rect width="20" height="18" x="2" y="4" rx="4" />
-                    <path d="M7 11c-2 0-3 1.5-3 3v3h8v-6c0-2-2-3-5-3zM12 11h4c2 0 3 1.5 3 3v3h-7" />
+                    <path d="M6 10V8a6 6 0 1 1 12 0v2M5 10h14v9H5zM12 14v3" />
                 </g>
             </symbol>
 
 
-            <symbol xmlns="http://www.w3.org/2000/svg" id="shopping-bag" viewBox="0 0 24 24">
+            <symbol xmlns="http://www.w3.org/2000/svg" id="visual" viewBox="0 0 24 24">
                 <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
-                    <path
-                        d="M3.977 9.84A2 2 0 0 1 5.971 8h12.058a2 2 0 0 1 1.994 1.84l.803 10A2 2 0 0 1 18.833 22H5.167a2 2 0 0 1-1.993-2.16l.803-10Z" />
-                    <path d="M16 11V6a4 4 0 0 0-4-4v0a4 4 0 0 0-4 4v5" />
+                    <path d="M12 3l7 4v5c0 5-3.5 8-7 9-3.5-1-7-4-7-9V7l7-4z" />
+                    <path d="M9 12l2 2 4-4" />
                 </g>
             </symbol>
-            <symbol xmlns="http://www.w3.org/2000/svg" id="gift" viewBox="0 0 24 24">
+            <symbol xmlns="http://www.w3.org/2000/svg" id="strength" viewBox="0 0 24 24">
                 <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
-                    <rect width="18" height="14" x="3" y="8" rx="2" />
-                    <path d="M12 5a3 3 0 1 0-3 3m6 0a3 3 0 1 0-3-3m0 0v17m9-7H3" />
+                    <path d="M9 12h6" />
+                    <path d="M5 10v4M7 9v6" />
+                    <path d="M17 9v6M19 10v4" />
+
+
+
                 </g>
             </symbol>
-            <symbol xmlns="http://www.w3.org/2000/svg" id="arrow-cycle" viewBox="0 0 24 24">
+            <symbol xmlns="http://www.w3.org/2000/svg" id="smile" viewBox="0 0 24 24">
                 <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
                     <path
-                        d="M22 12c0 6-4.39 10-9.806 10C7.792 22 4.24 19.665 3 16m-1-4C2 6 6.39 2 11.806 2C16.209 2 19.76 4.335 21 8" />
-                    <path d="m7 17l-4-1l-1 4M17 7l4 1l1-4" />
+                        d="M12 3v4M12 17v4M4.9 4.9l2.8 2.8M16.3 16.3l2.8 2.8M3 12h4M17 12h4M4.9 19.1l2.8-2.8M16.3 7.7l2.8-2.8" />
+                    <path d="M12 8l1.5 3L17 12l-3.5 1L12 16l-1.5-3L7 12l3.5-1z" />
                 </g>
             </symbol>
             <symbol xmlns="http://www.w3.org/2000/svg" id="link" viewBox="0 0 24 24">
@@ -249,15 +251,20 @@
         </div>
     </div>
 
-    <nav class="navbar navbar-expand-lg bg-light text-uppercase fs-6 p-3 border-bottom align-items-center">
+    <nav id="video-background"
+        class="navbar navbar-expand-lg bg-light text-uppercase fs-6 p-3 border-bottom align-items-center"
+        style="height: 63vh;">
+        <video autoplay muted loop playsinline class="bg-video">
+            <source src="video/video_fit.mp4" type="video/mp4">
+        </video>
         <div class="container-fluid">
             <div class="row justify-content-between align-items-center w-100">
 
                 <div class="col-auto">
-                    <a class="navbar-brand text-white" href="index.html">
+                    <a class="navbar-brand text-white align-items-center" href="index.html">
 
-                        <img src="anhfit/LOGO THE BUFFALO-02.png" alt="categories" class="product-image img-fluid"
-                            style="width:15%">
+                        <img id="logo-video" src="anhfit/LOGO THE BUFFALO-02.png" alt="categories"
+                            class="product-image img-fluid" style="width:35%">
 
                     </a>
                 </div>
@@ -278,134 +285,50 @@
 
                         <div class="offcanvas-body">
                             <ul class="navbar-nav justify-content-end flex-grow-1 gap-1 gap-md-5 pe-3">
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle active" href="#" id="dropdownHome"
-                                        data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Home</a>
-                                    <ul class="dropdown-menu list-unstyled" aria-labelledby="dropdownHome">
-                                        <li>
-                                            <a href="index.html" class="dropdown-item item-anchor">Home Layout 1</a>
-                                        </li>
-                                        <li>
-                                            <a href="index.html" class="dropdown-item item-anchor">Home Layout 2 </a>
-                                        </li>
-                                        <li>
-                                            <a href="index.html" class="dropdown-item item-anchor">Home Layout 3 </a>
-                                        </li>
-                                        <li>
-                                            <a href="index.html" class="dropdown-item item-anchor">Home Layout 4 </a>
-                                        </li>
-                                    </ul>
-                                </li>
+
                                 <li class="nav-item dropdown">
                                     <a class="nav-link dropdown-toggle" href="#" id="dropdownShop"
-                                        data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Shop</a>
+                                        data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Sản
+                                        phẩm</a>
                                     <ul class="dropdown-menu list-unstyled" aria-labelledby="dropdownShop">
                                         <li>
-                                            <a href="index.html" class="dropdown-item item-anchor">Shop Sidebar </a>
+                                            <a href="index.html" class="dropdown-item item-anchor">Kick Boxing </a>
                                         </li>
                                         <li>
-                                            <a href="index.html" class="dropdown-item item-anchor">Shop Three Column
+                                            <a href="index.html" class="dropdown-item item-anchor">
+                                                Boxing
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="index.html" class="dropdown-item item-anchor">Shop Three Column
-                                                Wide </a>
-                                        </li>
-                                        <li>
-                                            <a href="index.html" class="dropdown-item item-anchor">Shop Four Column </a>
-                                        </li>
-                                        <li>
-                                            <a href="index.html" class="dropdown-item item-anchor">Shop Four Column Wide
+                                            <a href="index.html" class="dropdown-item item-anchor">
+                                                Gym
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="index.html" class="dropdown-item item-anchor">Shop Six Column </a>
+                                            <a href="index.html" class="dropdown-item item-anchor">Kick Kid </a>
                                         </li>
-                                        <li>
-                                            <a href="index.html" class="dropdown-item item-anchor">Shop Six Column Wide
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="index.html" class="dropdown-item item-anchor">Single Product </a>
-                                        </li>
-                                        <li>
-                                            <a href="index.html" class="dropdown-item item-anchor">Single Product V2
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" id="dropdownBlog"
-                                        data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Blog</a>
-                                    <ul class="dropdown-menu list-unstyled" aria-labelledby="dropdownBlog">
-                                        <li>
-                                            <a href="index.html" class="dropdown-item item-anchor">Blog Classic </a>
-                                        </li>
-                                        <li>
-                                            <a href="index.html" class="dropdown-item item-anchor">Blog Grid with
-                                                Sidebar </a>
-                                        </li>
-                                        <li>
-                                            <a href="index.html" class="dropdown-item item-anchor">Blog Grid Four Column
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="index.html" class="dropdown-item item-anchor">Blog No Sidebar </a>
-                                        </li>
-                                        <li>
-                                            <a href="index.html" class="dropdown-item item-anchor">Blog Right Sidebar
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="index.html" class="dropdown-item item-anchor">Single Post </a>
-                                        </li>
-                                        <li>
-                                            <a href="index.html" class="dropdown-item item-anchor">Single Post No
-                                                Sidebar </a>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" id="dropdownPages"
-                                        data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Pages</a>
-                                    <ul class="dropdown-menu list-unstyled" aria-labelledby="dropdownPages">
-                                        <li>
-                                            <a href="index.html" class="dropdown-item item-anchor">About </a>
-                                        </li>
-                                        <li>
-                                            <a href="index.html" class="dropdown-item item-anchor">Cart </a>
-                                        </li>
-                                        <li>
-                                            <a href="index.html" class="dropdown-item item-anchor">Checkout </a>
-                                        </li>
-                                        <li>
-                                            <a href="index.html" class="dropdown-item item-anchor">Coming Soon </a>
-                                        </li>
-                                        <li>
-                                            <a href="index.html" class="dropdown-item item-anchor">Contact </a>
-                                        </li>
-                                        <li>
-                                            <a href="index.html" class="dropdown-item item-anchor">Error Page </a>
-                                        </li>
-                                        <li>
-                                            <a href="index.html" class="dropdown-item item-anchor">FAQs </a>
-                                        </li>
-                                        <li>
-                                            <a href="index.html" class="dropdown-item item-anchor">My Account </a>
-                                        </li>
-                                        <li>
-                                            <a href="index.html" class="dropdown-item item-anchor">Order Tracking </a>
-                                        </li>
-                                        <li>
-                                            <a href="index.html" class="dropdown-item item-anchor">Wishlist </a>
-                                        </li>
+
                                     </ul>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Blog</a>
+                                    <a class="nav-link dropdown" href="#" id="dropdownStories" data-bs-toggle="dropdown"
+                                        aria-haspopup="true" aria-expanded="false">Câu chuyện Private</a>
+                                    <ul class="dropdown-menu list-unstyled" aria-labelledby="dropdownStories">
+                                    </ul>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Contact</a>
+                                    <a class="nav-link dropdown" href="#" id="dropdownTrainer" data-bs-toggle="dropdown"
+                                        aria-haspopup="true" aria-expanded="false">Huấn luyện viên</a>
+                                    <ul class="dropdown-menu list-unstyled" aria-labelledby="dropdownTrainer">
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link"
+                                        href="https://www.facebook.com/profile.php?id=61585969022215">Fanpage</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link"
+                                        href="https://www.facebook.com/profile.php?id=61585969022215">Contact</a>
                                 </li>
                             </ul>
                         </div>
@@ -453,13 +376,11 @@
             </div>
 
         </div>
-    </nav>
 
-    <section id="billboard" class="bg-light py-5">
         <div class="container">
             <div class="row justify-content-center">
-                <h1 class="section-title text-center mt-4" data-aos="fade-up">The Buffalo KickBoxing Gym</h1>
-                <div class="col-md-6 text-center" data-aos="fade-up" data-aos-delay="300">
+                <h3 class="section-title text-center mt-4" data-aos="fade-up">The Buffalo KickBoxing Gym</h3>
+                <div class="col-md-12 text-center" data-aos="fade-up" data-aos-delay="300">
                     <div class="container">
                         <h1></h1>
                         <div class="subtitle">
@@ -481,6 +402,13 @@
                     </div>
                 </div>
             </div>
+        </div>
+
+    </nav>
+
+    <section id="billboard" class="bg-light py-5">
+        <div class="container">
+
             <div class="row">
                 <div class="swiper main-swiper py-4" data-aos="fade-up" data-aos-delay="600">
                     <div class="swiper-wrapper d-flex border-animation-left">
@@ -495,12 +423,16 @@
                                     <h5 class="element-title text-uppercase">
                                         <a href="index.html" class="item-anchor">Về chúng tôi</a>
                                     </h5>
-                                    <p>Scelerisque duis aliquam qui lorem ipsum dolor amet, consectetur adipiscing elit.
+                                    <p>
+                                        Scelerisque duis aliquam qui lorem ipsum dolor amet, consectetur adipiscing
+                                        elit.
                                     </p>
                                     <div class="btn-left">
                                         <a href="#"
-                                            class="btn-link fs-6 text-uppercase item-anchor text-decoration-none">Discover
-                                            Now</a>
+                                            class="btn-link fs-6 text-uppercase item-anchor text-decoration-none">
+                                            Discover
+                                            Now
+                                        </a>
                                     </div>
                                 </div>
                             </div>
@@ -516,12 +448,16 @@
                                     <h5 class="element-title text-uppercase">
                                         <a href="index.html" class="item-anchor">Câu chuyện Private</a>
                                     </h5>
-                                    <p>Scelerisque duis aliquam qui lorem ipsum dolor amet, consectetur adipiscing elit.
+                                    <p>
+                                        Scelerisque duis aliquam qui lorem ipsum dolor amet, consectetur adipiscing
+                                        elit.
                                     </p>
                                     <div class="btn-left">
                                         <a href="#"
-                                            class="btn-link fs-6 text-uppercase item-anchor text-decoration-none">Discover
-                                            Now</a>
+                                            class="btn-link fs-6 text-uppercase item-anchor text-decoration-none">
+                                            Discover
+                                            Now
+                                        </a>
                                     </div>
                                 </div>
                             </div>
@@ -537,12 +473,16 @@
                                     <h5 class="element-title text-uppercase">
                                         <a href="index.html" class="item-anchor">Sản phẩm</a>
                                     </h5>
-                                    <p>Scelerisque duis aliquam qui lorem ipsum dolor amet, consectetur adipiscing elit.
+                                    <p>
+                                        Scelerisque duis aliquam qui lorem ipsum dolor amet, consectetur adipiscing
+                                        elit.
                                     </p>
                                     <div class="btn-left">
                                         <a href="#"
-                                            class="btn-link fs-6 text-uppercase item-anchor text-decoration-none">Discover
-                                            Now</a>
+                                            class="btn-link fs-6 text-uppercase item-anchor text-decoration-none">
+                                            Discover
+                                            Now
+                                        </a>
                                     </div>
                                 </div>
                             </div>
@@ -558,12 +498,16 @@
                                     <h5 class="element-title text-uppercase">
                                         <a href="index.html" class="item-anchor">Huấn luyện viên</a>
                                     </h5>
-                                    <p>Scelerisque duis aliquam qui lorem ipsum dolor amet, consectetur adipiscing elit.
+                                    <p>
+                                        Scelerisque duis aliquam qui lorem ipsum dolor amet, consectetur adipiscing
+                                        elit.
                                     </p>
                                     <div class="btn-left">
                                         <a href="#"
-                                            class="btn-link fs-6 text-uppercase item-anchor text-decoration-none">Discover
-                                            Now</a>
+                                            class="btn-link fs-6 text-uppercase item-anchor text-decoration-none">
+                                            Discover
+                                            Now
+                                        </a>
                                     </div>
                                 </div>
                             </div>
@@ -579,12 +523,16 @@
                                     <h5 class="element-title text-uppercase">
                                         <a href="index.html" class="item-anchor">Out crop sweater</a>
                                     </h5>
-                                    <p>Scelerisque duis aliquam qui lorem ipsum dolor amet, consectetur adipiscing elit.
+                                    <p>
+                                        Scelerisque duis aliquam qui lorem ipsum dolor amet, consectetur adipiscing
+                                        elit.
                                     </p>
                                     <div class="btn-left">
                                         <a href="#"
-                                            class="btn-link fs-6 text-uppercase item-anchor text-decoration-none">Discover
-                                            Now</a>
+                                            class="btn-link fs-6 text-uppercase item-anchor text-decoration-none">
+                                            Discover
+                                            Now
+                                        </a>
                                     </div>
                                 </div>
                             </div>
@@ -600,12 +548,16 @@
                                     <h5 class="element-title text-uppercase">
                                         <a href="index.html" class="item-anchor">Liên hệ</a>
                                     </h5>
-                                    <p>Scelerisque duis aliquam qui lorem ipsum dolor amet, consectetur adipiscing elit.
+                                    <p>
+                                        Scelerisque duis aliquam qui lorem ipsum dolor amet, consectetur adipiscing
+                                        elit.
                                     </p>
                                     <div class="btn-left">
                                         <a href="#"
-                                            class="btn-link fs-6 text-uppercase item-anchor text-decoration-none">Discover
-                                            Now</a>
+                                            class="btn-link fs-6 text-uppercase item-anchor text-decoration-none">
+                                            Discover
+                                            Now
+                                        </a>
                                     </div>
                                 </div>
                             </div>
@@ -630,40 +582,41 @@
     <section class="features py-5">
         <div class="container">
             <div class="row">
+                <div class="col-md-3 text-center" data-aos="fade-in" data-aos-delay="600">
+                    <div class="py-5">
+                        <svg width="38" height="38" viewBox="0 0 24 24">
+                            <use xlink:href="#strength"></use>
+                        </svg>
+                        <h4 class="element-title text-capitalize my-3">Thiết bị hiện đại</h4>
+                        <p>Phòng tập đầy đủ thiết bị hiện đại, không gian rộng rãi.</p>
+                    </div>
+                </div>
                 <div class="col-md-3 text-center" data-aos="fade-in" data-aos-delay="0">
                     <div class="py-5">
                         <svg width="38" height="38" viewBox="0 0 24 24">
-                            <use xlink:href="#boxing"></use>
+                            <use xlink:href="#private"></use>
                         </svg>
-                        <h4 class="element-title text-capitalize my-3">Book An Appointment</h4>
-                        <p>At imperdiet dui accumsan sit amet nulla risus est ultricies quis.</p>
+                        <h4 class="element-title text-capitalize my-3">Mô hình Private</h4>
+                        <p>Không tập đông, Không chờ đợi</p>
                     </div>
                 </div>
                 <div class="col-md-3 text-center" data-aos="fade-in" data-aos-delay="300">
                     <div class="py-5">
                         <svg width="38" height="38" viewBox="0 0 24 24">
-                            <use xlink:href="#shopping-bag"></use>
+                            <use xlink:href="#visual"></use>
                         </svg>
-                        <h4 class="element-title text-capitalize my-3">Pick up in store</h4>
-                        <p>At imperdiet dui accumsan sit amet nulla risus est ultricies quis.</p>
+                        <h4 class="element-title text-capitalize my-3">Tập trung chất lượng</h4>
+                        <p>Đảm bảo đúng kỹ thuật, tránh chấn thương.</p>
                     </div>
                 </div>
-                <div class="col-md-3 text-center" data-aos="fade-in" data-aos-delay="600">
-                    <div class="py-5">
-                        <svg width="38" height="38" viewBox="0 0 24 24">
-                            <use xlink:href="#gift"></use>
-                        </svg>
-                        <h4 class="element-title text-capitalize my-3">Special packaging</h4>
-                        <p>At imperdiet dui accumsan sit amet nulla risus est ultricies quis.</p>
-                    </div>
-                </div>
+
                 <div class="col-md-3 text-center" data-aos="fade-in" data-aos-delay="900">
                     <div class="py-5">
                         <svg width="38" height="38" viewBox="0 0 24 24">
-                            <use xlink:href="#arrow-cycle"></use>
+                            <use xlink:href="#smile"></use>
                         </svg>
-                        <h4 class="element-title text-capitalize my-3">free global returns</h4>
-                        <p>At imperdiet dui accumsan sit amet nulla risus est ultricies quis.</p>
+                        <h4 class="element-title text-capitalize my-3">Tận tâm - Nhiệt tình</h4>
+                        <p>Luôn hỗ trợ, động viên, giúp bạn duy trì động lực tập luyện.</p>
                     </div>
                 </div>
             </div>
@@ -683,7 +636,7 @@
                             </div>
                             <div class="category-content">
                                 <div class="product-button">
-                                    <a href="index.html" class="btn btn-common text-uppercase">Shop for men</a>
+                                    <a href="index.html" class="btn btn-common text-uppercase">Kick</a>
                                 </div>
                             </div>
                         </div>
@@ -697,7 +650,7 @@
                             </div>
                             <div class="category-content">
                                 <div class="product-button">
-                                    <a href="index.html" class="btn btn-common text-uppercase">Shop for women</a>
+                                    <a href="index.html" class="btn btn-common text-uppercase">Boxing</a>
                                 </div>
                             </div>
                         </div>
@@ -711,7 +664,7 @@
                             </div>
                             <div class="category-content">
                                 <div class="product-button">
-                                    <a href="index.html" class="btn btn-common text-uppercase">Shop accessories</a>
+                                    <a href="index.html" class="btn btn-common text-uppercase">Dead lifts</a>
                                 </div>
                             </div>
                         </div>
@@ -901,7 +854,7 @@
         </div>
     </section>
 
-    <section id="best-sellers" class="best-sellers product-carousel py-5 position-relative overflow-hidden">
+    <!--<section id="best-sellers" class="best-sellers product-carousel py-5 position-relative overflow-hidden">
         <div class="container">
             <div class="d-flex flex-wrap justify-content-between align-items-center mt-5 mb-3">
                 <h4 class="text-uppercase">Best Selling Items</h4>
@@ -1054,7 +1007,7 @@
                 </svg>
             </div>
         </div>
-    </section>
+    </section>-->
 
     <section class="video py-5 overflow-hidden">
         <div class="container-fluid">
@@ -1119,7 +1072,7 @@
         <div class="testimonial-swiper-pagination d-flex justify-content-center mb-5"></div>
     </section>
 
-    <section id="related-products" class="related-products product-carousel py-5 position-relative overflow-hidden">
+    <!--<section id="related-products" class="related-products product-carousel py-5 position-relative overflow-hidden">
         <div class="container">
             <div class="d-flex flex-wrap justify-content-between align-items-center mt-5 mb-3">
                 <h4 class="text-uppercase">You May Also Like</h4>
@@ -1246,7 +1199,7 @@
                 </svg>
             </div>
         </div>
-    </section>
+    </section>-->
 
     <section class="blog py-5">
         <div class="container">
@@ -1270,7 +1223,8 @@
                             <h5 class="post-title text-uppercase">
                                 <a href="index.html">How to look outstanding in pastel</a>
                             </h5>
-                            <p>Dignissim lacus,turpis ut suspendisse vel tellus.Turpis purus,gravida orci,fringilla...
+                            <p>
+                                Dignissim lacus,turpis ut suspendisse vel tellus.Turpis purus,gravida orci,fringilla...
                             </p>
                         </div>
                     </article>
@@ -1290,8 +1244,10 @@
                             <h5 class="post-title text-uppercase">
                                 <a href="index.html">Top 10 fashion trend for summer</a>
                             </h5>
-                            <p>Turpis purus, gravida orci, fringilla dignissim lacus, turpis ut suspendisse vel
-                                tellus...</p>
+                            <p>
+                                Turpis purus, gravida orci, fringilla dignissim lacus, turpis ut suspendisse vel
+                                tellus...
+                            </p>
                         </div>
                     </article>
                 </div>
@@ -1310,8 +1266,10 @@
                             <h5 class="post-title text-uppercase">
                                 <a href="index.html">Crazy fashion with unique moment</a>
                             </h5>
-                            <p>Turpis purus, gravida orci, fringilla dignissim lacus, turpis ut suspendisse vel
-                                tellus...</p>
+                            <p>
+                                Turpis purus, gravida orci, fringilla dignissim lacus, turpis ut suspendisse vel
+                                tellus...
+                            </p>
                         </div>
                     </article>
                 </div>
